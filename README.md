@@ -7,8 +7,8 @@
 <br>
   <img src="https://img.shields.io/npm/v/gml-react?color=cyan&label=npm+version" />
   <img src="https://img.shields.io/npm/dt/gml-react?color=blue" />
-  <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
   <img src="https://img.shields.io/npm/l/gml-react?color=yellow" />
+  <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
 </div>
 
 <br>
