@@ -93,19 +93,19 @@ Pick exactly what you want:
 
 ## 📦 Quick Start
 
-### باستخدام npx
+### using npx
 
 ```bash
 npx gml-react@latest
 ```
 
-### باستخدام npm
+### using npm
 
 ```bash
 npm create gml-react@latest
 ```
 
-### باستخدام pnpm
+### using pnpm
 
 ```bash
 pnpm dlx gml-react@latest
