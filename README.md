@@ -7,6 +7,7 @@
   <br>
   <img src="https://img.shields.io/npm/v/create-gml-react?color=0ea5e9&label=version" />
   <img src="https://img.shields.io/npm/dt/create-gml-react?color=6366f1&label=downloads" />
+  <img src="https://img.shields.io/bundlephobia/min/create-gml-react?color=ff69b4&label=bundle%20size" />
   <img src="https://img.shields.io/npm/l/create-gml-react?color=22c55e&label=license" />
   <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
 </div>
@@ -40,7 +41,7 @@
 
 ## 👀 Preview
 
-> *(Screenshot or GIF of the CLI in action goes here)*
+> _(Screenshot or GIF of the CLI in action goes here)_
 
 ```bash
 $ npx create-gml-react@latest
@@ -61,15 +62,15 @@ Installing dependencies...
 
 Just hit Enter and get a full stack instantly:
 
-| Tool | Purpose |
-|---|---|
-| Vite + React | Build tooling |
-| Tailwind v4 | Styling |
-| React Router | Routing |
-| Zustand | State management |
-| DaisyUI | Component library |
-| React Icons | Icon set |
-| Axios | HTTP client |
+| Tool         | Purpose           |
+| ------------ | ----------------- |
+| Vite + React | Build tooling     |
+| Tailwind v4  | Styling           |
+| React Router | Routing           |
+| Zustand      | State management  |
+| DaisyUI      | Component library |
+| React Icons  | Icon set          |
+| Axios        | HTTP client       |
 
 ---
 
@@ -77,20 +78,21 @@ Just hit Enter and get a full stack instantly:
 
 Pick exactly what you need:
 
-| Option | Choices |
-|---|---|
-| **Language** | JavaScript / TypeScript |
-| **CSS** | Tailwind v4 / Bootstrap / None |
-| **Icons** | React Icons / Lucide / Huge Icons |
-| **State** | Zustand / Redux Toolkit |
-| **UI** | DaisyUI / Shadcn UI |
-| **Routing** | React Router |
+| Option       | Choices                           |
+| ------------ | --------------------------------- |
+| **Language** | JavaScript / TypeScript           |
+| **CSS**      | Tailwind v4 / Bootstrap / None    |
+| **Icons**    | React Icons / Lucide / Huge Icons |
+| **State**    | Zustand / Redux Toolkit           |
+| **UI**       | DaisyUI / Shadcn UI               |
+| **Routing**  | React Router                      |
 
 ---
 
 ### 🧠 Smart Automation
 
 **Folder structure** — generated automatically:
+
 ```
 src/
 ├── components/
@@ -101,6 +103,7 @@ src/
 ```
 
 **Cleanup** — runs on every scaffold:
+
 - Removes `StrictMode` wrapper
 - Deletes `App.css`
 - Clears default `index.css` styles
@@ -122,10 +125,12 @@ src/
 # npx
 npx create-gml-react@latest
 ```
+
 ```bash
 # npm
 npm create gml-react@latest
 ```
+
 ```bash
 # pnpm
 pnpm dlx create-gml-react@latest
@@ -168,6 +173,7 @@ npm run dev
 ## 🔧 Troubleshooting
 
 **`npx` uses an old cached version**
+
 ```bash
 npx create-gml-react@latest --force
 ```
