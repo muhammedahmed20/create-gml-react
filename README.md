@@ -7,7 +7,6 @@
   <br>
   <img src="https://img.shields.io/npm/v/create-gml-react?color=0ea5e9&label=version" />
   <img src="https://img.shields.io/npm/dt/create-gml-react?color=6366f1&label=downloads" />
-  <img src="https://img.shields.io/bundlephobia/min/create-gml-react?color=ff69b4&label=bundle%20size" />
   <img src="https://img.shields.io/npm/l/create-gml-react?color=22c55e&label=license" />
   <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
 </div>
