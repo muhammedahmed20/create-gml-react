@@ -1,12 +1,20 @@
 {
   "name": "create-gml-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An interactive, zero-config CLI to instantly scaffold a modern Vite + React ecosystem (Tailwind v4, Zustand, Shadcn/DaisyUI).",
   "type": "module",
   "bin": {
     "gml-react": "./index.js"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedahmed20/gml-react-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammedahmed20/gml-react-cli/issues"
+  },
+  "homepage": "https://github.com/muhammedahmed20/gml-react-cli#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +27,8 @@
     "frontend",
     "generator",
     "create-react-app",
-    "daisyui"
+    "daisyui",
+    "create-gml-react"
   ],
   "author": "muhammedahmed20",
   "license": "MIT",
