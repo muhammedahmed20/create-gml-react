@@ -1,7 +1,7 @@
 {
-  "name": "gml-react-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "create-gml-react",
+  "version": "1.0.3",
+  "description": "An interactive, zero-config CLI to instantly scaffold a modern Vite + React ecosystem (Tailwind v4, Zustand, Shadcn/DaisyUI).",
   "type": "module",
   "bin": {
     "gml-react": "./index.js"
@@ -10,13 +10,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "vite",
+    "cli",
+    "tailwind",
+    "scaffold",
+    "frontend",
+    "generator",
+    "create-react-app",
+    "daisyui"
+  ],
+  "author": "muhammedahmed20",
+  "license": "MIT",
   "dependencies": {
-    "chalk": "^5.6.2",
-    "fs-extra": "^11.3.4",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
     "inquirer": "^8.2.6",
-    "ora": "^9.4.0"
+    "ora": "^6.3.1"
   }
 }

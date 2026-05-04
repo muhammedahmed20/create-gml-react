@@ -2,16 +2,14 @@
 
 <div align="center">
   <p align="center">
-    <img width="200" src="./template/logo.png" alt="gml-react logo" style="max-width: 100%; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
-  </p>
-<br>
-  <img src="https://img.shields.io/npm/v/gml-react-cli?color=0ea5e9&label=version" />
-  <img src="https://img.shields.io/npm/dt/gml-react-cli?color=6366f1&label=downloads" />
-  <img src="https://img.shields.io/npm/l/gml-react-cli?color=22c55e&label=license" />
-  <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
-</div>
-
-<br>
+      <img width="200" src="https://raw.githubusercontent.com/muhammedahmed20/gml-react-cli/main/template/logo.png" alt="gml-react logo" style="max-width: 100%; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
+        </p>
+        <br>
+          <img src="https://img.shields.io/npm/v/create-gml-react?color=0ea5e9&label=version" />
+<img src="https://img.shields.io/npm/dt/create-gml-react?color=6366f1&label=downloads" />
+<img src="https://img.shields.io/npm/l/create-gml-react?color=22c55e&label=license" />
+<img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
+                </div>
 
 <h1 align="center">gml-react CLI</h1>
 
@@ -30,10 +28,10 @@ An interactive, zero-config CLI to scaffold a modern, production-ready <b>Vite +
 **gml-react** is not just another Vite wrapper.
 It’s an intelligent scaffolding tool that:
 
-* ⚡ Sets up your stack instantly
-* 🏗️ Builds a clean architecture for you
-* 🎨 Injects a ready-to-use UI
-* 🧹 Cleans all boilerplate automatically
+- ⚡ Sets up your stack instantly
+- 🏗️ Builds a clean architecture for you
+- 🎨 Injects a ready-to-use UI
+- 🧹 Cleans all boilerplate automatically
 
 ---
 
@@ -43,13 +41,13 @@ It’s an intelligent scaffolding tool that:
 
 Just hit Enter and get:
 
-* React + Vite
-* Tailwind v4
-* React Router
-* React Icons
-* Zustand
-* DaisyUI
-* Axios
+- React + Vite
+- Tailwind v4
+- React Router
+- React Icons
+- Zustand
+- DaisyUI
+- Axios
 
 ---
 
@@ -57,18 +55,18 @@ Just hit Enter and get:
 
 Pick exactly what you want:
 
-* **Language:** JavaScript / TypeScript
-* **CSS:** Tailwind v4 / Bootstrap / None
-* **Icons:** React Icons / Lucide / Huge Icons
-* **State:** Zustand / Redux Toolkit
-* **UI:** Shadcn UI / DaisyUI
-* **Routing:** React Router
+- **Language:** JavaScript / TypeScript
+- **CSS:** Tailwind v4 / Bootstrap / None
+- **Icons:** React Icons / Lucide / Huge Icons
+- **State:** Zustand / Redux Toolkit
+- **UI:** Shadcn UI / DaisyUI
+- **Routing:** React Router
 
 ---
 
 ### 🧠 Smart Automation
 
-* 🏗️ Auto folder structure:
+- 🏗️ Auto folder structure:
 
   ```
   components/
@@ -78,16 +76,14 @@ Pick exactly what you want:
   store/
   ```
 
-* 🧹 Auto cleanup:
+- 🧹 Auto cleanup:
+  - Remove `StrictMode`
+  - Delete `App.css`
+  - Clean `index.css`
 
-  * Remove `StrictMode`
-  * Delete `App.css`
-  * Clean `index.css`
-
-* 🎨 UI Injection:
-
-  * Replace default UI with a modern landing page
-  * Add logo + animations
+- 🎨 UI Injection:
+  - Replace default UI with a modern landing page
+  - Add logo + animations
 
 ---
 
@@ -164,14 +160,14 @@ npm run dev
 
 ## 📚 Tech Stack
 
-* Vite
-* React
-* Tailwind CSS v4
-* DaisyUI / Shadcn UI
-* React Router
-* Zustand / Redux Toolkit
-* React Icons / Lucide
-* Axios
+- Vite
+- React
+- Tailwind CSS v4
+- DaisyUI / Shadcn UI
+- React Router
+- Zustand / Redux Toolkit
+- React Icons / Lucide
+- Axios
 
 ---
 
@@ -179,8 +175,8 @@ npm run dev
 
 Got ideas? Found a bug?
 
-* Open an issue
-* Submit a pull request
+- Open an issue
+- Submit a pull request
 
 ---
 
