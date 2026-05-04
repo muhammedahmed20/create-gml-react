@@ -2,7 +2,7 @@
 
 <div align="center">
   <p align="center">
-    <img width="200" src="./assets/logo.png" alt="gml-react logo" style="max-width: 100%; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
+    <img width="200" src="./template/logo.png" alt="gml-react logo" style="max-width: 100%; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
   </p>
 
   <img src="https://img.shields.io/npm/v/gml-react?color=cyan&label=npm+version" />
