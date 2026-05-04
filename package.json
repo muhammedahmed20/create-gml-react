@@ -1,6 +1,6 @@
 {
   "name": "create-gml-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An interactive, zero-config CLI to instantly scaffold a modern Vite + React ecosystem (Tailwind v4, Zustand, Shadcn/DaisyUI).",
   "type": "module",
   "bin": {

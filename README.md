@@ -2,14 +2,14 @@
 
 <div align="center">
   <p align="center">
-      <img width="200" src="https://raw.githubusercontent.com/muhammedahmed20/gml-react-cli/main/template/logo.png" alt="gml-react logo" style="max-width: 100%; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
-        </p>
-        <br>
-          <img src="https://img.shields.io/npm/v/create-gml-react?color=0ea5e9&label=version" />
-<img src="https://img.shields.io/npm/dt/create-gml-react?color=6366f1&label=downloads" />
-<img src="https://img.shields.io/npm/l/create-gml-react?color=22c55e&label=license" />
-<img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
-                </div>
+    <img width="200" src="https://raw.githubusercontent.com/muhammedahmed20/gml-react-cli/main/template/logo.png" alt="gml-react logo" style="max-width: 100%;">
+  </p>
+  <br>
+  <img src="https://img.shields.io/npm/v/create-gml-react?color=0ea5e9&label=version" />
+  <img src="https://img.shields.io/npm/dt/create-gml-react?color=6366f1&label=downloads" />
+  <img src="https://img.shields.io/npm/l/create-gml-react?color=22c55e&label=license" />
+  <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
+</div>
 
 <h1 align="center">gml-react CLI</h1>
 
@@ -18,20 +18,40 @@
 </p>
 
 <p align="center">
-An interactive, zero-config CLI to scaffold a modern, production-ready <b>Vite + React</b> project in seconds.
+  An interactive, zero-config CLI to scaffold a modern, production-ready <b>Vite + React</b> project in seconds.
 </p>
+
+---
+
+> **Who is this for?** Frontend developers who want a clean, opinionated starting point for Vite + React projects — without spending time wiring up the same tools every time.
 
 ---
 
 ## ✨ Why gml-react?
 
-**gml-react** is not just another Vite wrapper.
-It’s an intelligent scaffolding tool that:
+**gml-react** is not just another Vite wrapper. It's an intelligent scaffolding tool that:
 
-- ⚡ Sets up your stack instantly
-- 🏗️ Builds a clean architecture for you
-- 🎨 Injects a ready-to-use UI
-- 🧹 Cleans all boilerplate automatically
+- ⚡ Sets up your full stack instantly
+- 🏗️ Builds a clean, scalable folder structure
+- 🎨 Injects a ready-to-use landing page UI
+- 🧹 Removes all boilerplate automatically
+
+---
+
+## 👀 Preview
+
+> *(Screenshot or GIF of the CLI in action goes here)*
+
+```bash
+$ npx create-gml-react@latest
+
+✔ Project name: my-app
+✔ Language: JavaScript
+✔ Setup type: ⚡ Quick Mode
+
+Installing dependencies...
+✔ Done! Your project is ready.
+```
 
 ---
 
@@ -39,79 +59,83 @@ It’s an intelligent scaffolding tool that:
 
 ### ⚡ Quick Mode
 
-Just hit Enter and get:
+Just hit Enter and get a full stack instantly:
 
-- React + Vite
-- Tailwind v4
-- React Router
-- React Icons
-- Zustand
-- DaisyUI
-- Axios
+| Tool | Purpose |
+|---|---|
+| Vite + React | Build tooling |
+| Tailwind v4 | Styling |
+| React Router | Routing |
+| Zustand | State management |
+| DaisyUI | Component library |
+| React Icons | Icon set |
+| Axios | HTTP client |
 
 ---
 
 ### 🛠 Custom Mode
 
-Pick exactly what you want:
+Pick exactly what you need:
 
-- **Language:** JavaScript / TypeScript
-- **CSS:** Tailwind v4 / Bootstrap / None
-- **Icons:** React Icons / Lucide / Huge Icons
-- **State:** Zustand / Redux Toolkit
-- **UI:** Shadcn UI / DaisyUI
-- **Routing:** React Router
+| Option | Choices |
+|---|---|
+| **Language** | JavaScript / TypeScript |
+| **CSS** | Tailwind v4 / Bootstrap / None |
+| **Icons** | React Icons / Lucide / Huge Icons |
+| **State** | Zustand / Redux Toolkit |
+| **UI** | DaisyUI / Shadcn UI |
+| **Routing** | React Router |
 
 ---
 
 ### 🧠 Smart Automation
 
-- 🏗️ Auto folder structure:
+**Folder structure** — generated automatically:
+```
+src/
+├── components/
+├── pages/
+├── layout/
+├── hooks/
+└── store/
+```
 
-  ```
-  components/
-  pages/
-  layout/
-  hooks/
-  store/
-  ```
+**Cleanup** — runs on every scaffold:
+- Removes `StrictMode` wrapper
+- Deletes `App.css`
+- Clears default `index.css` styles
 
-- 🧹 Auto cleanup:
-  - Remove `StrictMode`
-  - Delete `App.css`
-  - Clean `index.css`
-
-- 🎨 UI Injection:
-  - Replace default UI with a modern landing page
-  - Add logo + animations
+**UI injection** — replaces the default Vite landing page with a modern, animated starter UI.
 
 ---
 
 ## 📦 Quick Start
 
-### using npx
+### Prerequisites
+
+- **Node.js** `>= 18.x`
+- npm, pnpm
+
+### Installation
 
 ```bash
-npx gml-react@latest
+# npx
+npx create-gml-react@latest
 ```
-
-### using npm
-
 ```bash
+# npm
 npm create gml-react@latest
 ```
-
-### using pnpm
-
 ```bash
-pnpm dlx gml-react@latest
+# pnpm
+pnpm dlx create-gml-react@latest
 ```
 
 ---
 
 ## 📁 Project Structure
 
-```bash
+```
 my-app/
 ├── public/
 │   └── favicon.ico
@@ -123,64 +147,50 @@ my-app/
 │   ├── layout/
 │   ├── pages/
 │   ├── store/
-│   ├── App.jsx / App.tsx
+│   ├── App.jsx          # or App.tsx
 │   ├── index.css
-│   └── main.jsx / main.tsx
-├── vite.config.js / ts
+│   └── main.jsx         # or main.tsx
+├── vite.config.js       # or vite.config.ts
 └── package.json
 ```
 
 ---
 
-## 🛠️ CLI Flow
-
-1. Enter project name
-2. Choose JavaScript or TypeScript
-3. Select setup type
-
-### ⚡ Quick Mode
-
-→ installs full stack instantly
-
-### 🛠 Custom Mode
-
-→ choose each tool manually
-
----
-
-## ▶️ Run Project
+## ▶️ Run Your Project
 
 ```bash
 cd my-app
-npm install
 npm run dev
 ```
 
 ---
 
-## 📚 Tech Stack
+## 🔧 Troubleshooting
 
-- Vite
-- React
-- Tailwind CSS v4
-- DaisyUI / Shadcn UI
-- React Router
-- Zustand / Redux Toolkit
-- React Icons / Lucide
-- Axios
+**`npx` uses an old cached version**
+```bash
+npx create-gml-react@latest --force
+```
+
+**Dependencies fail to install**  
+Make sure you're on Node.js `>= 18`. Run `node -v` to check.
+
+**Shadcn UI setup prompts appear**  
+This is expected — Shadcn requires a brief manual config step after scaffolding. Follow the on-screen instructions.
 
 ---
 
 ## 🤝 Contributing
 
-Got ideas? Found a bug?
+Got ideas? Found a bug? Contributions are welcome.
 
-- Open an issue
-- Submit a pull request
+1. Fork the repo
+2. Create a branch: `git checkout -b feat/my-feature`
+3. Push and open a pull request
 
 ---
 
 ## 📜 License
 
-MIT License © 2026
+MIT License © 2026  
 Built with ❤️ for developers who love clean code.
