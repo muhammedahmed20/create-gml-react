@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/github/stars/muhammedahmed20/gml-react-cli?style=social" />
 </div>
 
-<h1 align="center">gml-react CLI</h1>
+<h1 align="center">create-gml-react</h1>
 
 <p align="center">
   <b>Stop writing boilerplate. Start doing magic ✨</b>
