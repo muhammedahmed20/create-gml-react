@@ -424,7 +424,10 @@ export default App;
 
         // إعداد Shadcn UI
         if (!answers.quickStart && answers.uiLibrary === 'Shadcn') {
-            execSync('npx --yes shadcn@latest init -d', { cwd: projectPath, stdio: 'ignore' });
+            execSync(`npx shadcn@latest init -t ${answers.language === 'TypeScript' ? 'vite-react-ts' : 'vite-react'}`, {
+    cwd: projectPath,
+    stdio: 'inherit'
+});
         }
 
         configSpinner.succeed(chalk.green('Tools configured successfully!'));
